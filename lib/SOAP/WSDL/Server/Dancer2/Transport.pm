@@ -2,6 +2,8 @@ package SOAP::WSDL::Server::Dancer2::Transport;
 
 # ABSTRACT: Dancer2 Server Transport for SOAP::WSDL
 
+our $VERSION = '0.01';
+
 use Carp;
 use Try::Tiny;
 use HTTP::Request;
